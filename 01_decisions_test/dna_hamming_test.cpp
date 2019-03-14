@@ -2,7 +2,7 @@
 #include "catch.hpp"
 //write include statement for dna header
 #include "dna_hamming.h"
-
+#include <string>
 
 TEST_CASE("Test configuration setup") 
 {
@@ -12,12 +12,14 @@ TEST_CASE("Test configuration setup")
 /*
 
 */
-/*
+
 TEST_CASE("test Dna hamming")
 {
+	std::string dna_sequence = "GAGCCTACTAACGGGAT";
+	std::string dna_sequence2 = "CATCGTAATGACGGCCT";
 
+	REQUIRE(get_dna_hamming_distance(dna_sequence, dna_sequence2) == 7);
 
 
 
 }
-*/

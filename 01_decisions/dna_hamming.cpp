@@ -1,5 +1,6 @@
 #include "dna_hamming.h"
 #include <string>
+#include <iostream>
 using std::string;
 /*
 Write code for value-return function get_dna_hamming_distance with two const string
@@ -18,14 +19,15 @@ distance will be 7
 */
 
 
-/*int get_dna_hamming_distance(std::string s , std::string t)
+int get_dna_hamming_distance(std::string s , std::string t)
 {
-	if (s != t)
+	int distance = 0;
+	for (int i = 0; i <= s.length(); ++i) // The loop will run as long as i is less than or qual to the length of string s
+	if (s [i] != t[i]) // If the value of string s does not equal the string of string t then add a value to the integer distance.
 	{
-		distance == ;
+		++distance; // add value to int distance every time the if statement runs true.
 
 
 	}
-	return (distance);
+	return (distance); // when the loop no longer meets its requirements and stops running return the distance value
 }
-*/

@@ -15,35 +15,26 @@ For each loop Roll die and display output
 
 int main() 
 {
-	std::string r;
-	string r = "1";
-	int roll;
+	std::string r = "1";
+	int play;
 
 	Die R;
 
-	while (r == "1")
-	{
+
 
 		cout << "press 1 to roll the die or press 2 to quit";
-		cin >> roll;
+		cin >> play;
 
-		
-
-		while (roll == 1)
+		while (play == 1)
 		{
-			Die game;
+			Die roll();
 
-			cout << "You rolled a: " << game.roll;
+			cout << "You rolled a: " << R.rolled_value();
 	
 			cout << "Roll again? press 1 to roll again.";
-			cin >> roll;
+			cin >> play;
 
 		}
 
 		return 0;
-
-
-	}
-
-	return 0;
 }

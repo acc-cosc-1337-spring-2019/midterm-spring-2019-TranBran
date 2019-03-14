@@ -8,9 +8,9 @@ and values 1,2,3,4,5, and 6.
 public roll function returns a number from 1 to 6(search C++ random function)
 */
 
-void Die::roll(int )
+void Die::roll()
 {
-	int = rand() % 1 + 5;
+	int r = rand() % 1 + 5;
 	
 	r= roll_value;
 

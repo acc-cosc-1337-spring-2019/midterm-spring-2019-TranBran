@@ -4,11 +4,12 @@
 #include "die.h"
 #include<iostream>
 #include<string>
+using std::string;
 
-class Roll :
+class Roll 
 {
-
 public:
+
 	Roll(Die& d1, Die& d2);
 
 	void roll();

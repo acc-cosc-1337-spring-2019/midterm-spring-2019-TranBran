@@ -13,7 +13,7 @@ class Die
 
 public:
 
-	void roll(int);
+	void roll();
 	int rolled_value()const;
 
 
@@ -21,7 +21,7 @@ public:
 private:
 
 	int roll_value;
-	int sides{ 6 };
+	int sides{6};
 
 
 
