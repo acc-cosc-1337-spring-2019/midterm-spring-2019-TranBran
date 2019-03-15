@@ -6,7 +6,7 @@
 #include<string>
 using std::string;
 
-class Roll 
+class Roll
 {
 public:
 
