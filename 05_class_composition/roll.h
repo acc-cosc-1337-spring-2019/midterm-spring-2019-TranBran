@@ -2,7 +2,7 @@
 #define ROLL_H
 //Roll class interface 
 #include "die.h"
-#include<iostream>
+//#include<iostream>
 #include<string>
 using std::string;
 
@@ -10,7 +10,7 @@ class Roll
 {
 public:
 
-	Roll(Die& d1, Die& d2);
+	Roll(Die & d1, Die & d2) : die1(d1), die2(d2) {};
 
 	void roll();
 	std::string result();

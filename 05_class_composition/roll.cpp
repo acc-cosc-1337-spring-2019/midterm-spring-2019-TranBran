@@ -5,18 +5,18 @@
 
 
 
-Roll::Roll(Die & d1, Die & d2):
+/*Roll::Roll(Die & d1, Die & d2):
 	 die1 (d1), die2(d2)
 {
 }
-
+*/
 void Roll::roll()
 {
 	die1.roll(); // Rolls the 1st and 2nd instance of die
 	die2.roll();
 	die1_roll_value = die1.rolled_value(); // Takes the die rolled value and inputs it into the die roll value int
 	die2_roll_value = die2.rolled_value();
-
+	rolled = true;
 }
 
 std::string Roll::result()
