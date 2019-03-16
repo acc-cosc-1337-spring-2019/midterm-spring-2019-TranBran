@@ -12,5 +12,8 @@ Use overloaded cout on instance-outputs vector roll result
 int main() 
 {
 	
+
+
+
 	return 0;
 }

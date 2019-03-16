@@ -3,3 +3,15 @@
 
 //Create a test case that shows that a copy of Die are not the same
 //objects in memory
+
+TEST_CASE("Testing Copy vs. Instance")
+{
+
+
+
+
+
+
+
+
+}

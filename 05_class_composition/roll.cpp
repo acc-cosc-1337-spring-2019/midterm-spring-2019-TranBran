@@ -1,15 +1,12 @@
-#include "roll.h"
-
-//roll class implementation
-#include <iostream>
-
-
-
+#include "roll_ol.h"
+//#include<iostream>
+//using std::cout;
 /*Roll::Roll(Die & d1, Die & d2):
 	 die1 (d1), die2(d2)
 {
 }
 */
+
 void Roll::roll()
 {
 	die1.roll(); // Rolls the 1st and 2nd instance of die
@@ -32,7 +29,14 @@ std::string Roll::result()
 		//cout << "Craps";
 		return "Craps";
 	}
-	else
+	else if (rolled = false)
+	{
+		//Cout<<"must roll first";
+		return"must roll first";
+
+	}// if the player did not roll yet then prints must roll first
+		
+	
 		//cout << "points";
 	return "points";
 

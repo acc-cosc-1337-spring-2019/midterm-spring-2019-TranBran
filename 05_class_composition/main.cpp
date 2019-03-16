@@ -21,7 +21,6 @@ int main()
 	{
 		Die die1; // 2 instances of the class Die objects
 		Die die2;
-
 		Roll r(die1,die2); // instance of Roll class object
 		r.roll(); // calls roll function
 
