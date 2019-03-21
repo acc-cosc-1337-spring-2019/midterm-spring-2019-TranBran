@@ -4,7 +4,7 @@
 using std::string;
 using std::vector;
 
-vector<string>  get_dna_consensus(string);
+vector<string>  get_dna_consensus(vector<string> dna_strings);
 
 vector<string> dna_strings;
 vector<string> consensus;

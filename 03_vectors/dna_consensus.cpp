@@ -1,15 +1,18 @@
 #include "dna_consensus.h"
+#include <iostream>
 
 vector <string> get_dna_consensus(vector<string> dna_strings)
 {
-	for (int i = 0; i < dna_strings.max_size; i++)
-	{
 		int a = 0;
 		int c = 0;
 		int g = 0;
 		int t = 0;
 
-		for (int j = 0; j = dna_strings.max_size; j++) // iterates the loop until j is equal to the vectors max size
+	for (int i = 0; i < dna_strings.size; i++)
+	{
+		
+
+		for (int j = 0; j = dna_strings.size; j++) // iterates the loop until j is equal to the vectors size
 		{
 			if (dna_strings[j][i] == 'A') // If the dna string in the vector has an A value add to the a integer
 			{

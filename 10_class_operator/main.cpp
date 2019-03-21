@@ -1,5 +1,8 @@
+#include "craps.h"
 
-
+#include<iostream>
+using std::cout;
+using std::cin;
 /*
 Program runs until user opts out.
 
@@ -11,6 +14,21 @@ Use overloaded cout on instance-outputs vector roll result
 */
 int main() 
 {
+	int play = 1;
+
+	while (play = 1)
+	{
+
+		Craps game;
+
+		game.play_game;
+
+		cout << "Want to play again? 1 for yes 2 for no";
+		cin >> play;
+
+
+
+	}
 	
 
 

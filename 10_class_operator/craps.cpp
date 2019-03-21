@@ -8,16 +8,34 @@ using std::cout;
 using std::cin;
 using std::string;
 
+/*
 std::ostream & operator<<(std::ostream & out, Craps & c)
 {
 
-	// TODO: insert return statement here
-}
+ i cant figure this out :(
+
+} 
+
+*/
 
 std::istream & operator<<(std::istream & in, const Craps & c)
 {
 
 	// TODO: insert return statement here
+	int shooters;
+
+	cout << "How many people are playing?: ";
+	in >> shooters;
+	
+	for (int i = 0; i < shooters; ++i)
+	{
+		Shooter s;
+
+		c.shoot.push_back(s);
+	}
+	return in;
+
+
 }
 
 void Craps::play_game()
